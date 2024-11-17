@@ -1,5 +1,5 @@
 import ResidentCard from './ResidentCard'
-
+import './ResidentList.css'
 function ResidentsList ({ residents }) {
   return (
     <div className='cards'>

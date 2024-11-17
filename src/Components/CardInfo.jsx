@@ -1,9 +1,9 @@
-import React from 'react'
+import './CardInfo.css'
 
 function CardInfo({location}) {
   return (
     <div className='cardInfo'>
-      <h2>{location?.name}</h2>
+      <h2 className='cardInfo_title'>{location?.name}</h2>
       <div className='cardInfo_container'>
         <div className='cardInfo_item'>
           <h3 className='cardInfo_item-title'>Type</h3>
