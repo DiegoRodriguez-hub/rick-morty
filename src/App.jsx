@@ -5,7 +5,6 @@ import useFetch from './Hooks/usefetch'
 import CardInfo from './Components/CardInfo'
 import ResidentsList from './Components/ResidentsList'
 import Search from './Components/Search'
-import './App.css'
 
 function App() {
   const [location, setLocation] = useFetch()
